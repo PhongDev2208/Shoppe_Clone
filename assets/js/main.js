@@ -16,6 +16,7 @@ const search = () => {
   handlePagination()
   params.page = 1
   params.category = ''
+  activeCategory(document.querySelector('.category-item:first-child'))
 }
 
 buttonSearch.addEventListener("click", function() {
@@ -26,6 +27,10 @@ inputSearch.addEventListener("keyup", function(e) {
   if(e.key == "Enter") {
     search();
   }
+});
+
+inputSearch.addEventListener("blur", function(e) {
+  this.value = "";
 });
 // End Search
 
