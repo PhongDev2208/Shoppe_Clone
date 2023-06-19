@@ -7,4 +7,4 @@ Built shoppee clone by html, css and js
 - 🗑️ Arrange by best selling products
 - ⏸ Price arrangement from low to high and vice versa
 - ▶️ Sort by product many discounts
-- 🌙 Light \ dark mode toggle
+- 🌙 Show by catalogue
